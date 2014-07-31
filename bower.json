@@ -1,0 +1,29 @@
+{
+  "name": "avl-tree-adt",
+  "version": "0.1.0",
+  "homepage": "https://github.com/pasangsherpa/avl-tree-adt",
+  "authors": [
+      "Pasang Sherpa <pgyalzen@gmail.com> (https://github.com/pasangsherpa)"
+  ],
+  "description": "AVL Tree ADT for browser and nodejs",
+  "main": "dist/avl-tree-adt.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "avl-tree",
+    "adt",
+    "datatype",
+    "abstractdatatype"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
