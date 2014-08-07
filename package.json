@@ -1,6 +1,6 @@
 {
   "name": "avl-tree-adt",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "AVL Tree ADT for browser and nodejs",
   "main": "dist/avl-tree-adt.js",
   "scripts": {
