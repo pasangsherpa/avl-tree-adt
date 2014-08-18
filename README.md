@@ -22,14 +22,14 @@ $ bower install --save avl-tree-adt
 ## Usage
 
 ```js
-var BinaryTree = require('avl-tree-adt');
-var avlTree = new BinaryTree();
+var AVLTree = require('avl-tree-adt');
+var avlTree = new AVLTree();
 
 ```
 ```js
 <script type="text/javascript" src="https://raw.githubusercontent.com/pasangsherpa/avl-tree-adt/master/dist/avl-tree-adt.min.js"></script>
 <script type="text/javascript"> 
-  var avlTree = new BinaryTree();
+  var avlTree = new AVLTree();
 
 </script>
 ```
@@ -37,7 +37,7 @@ var avlTree = new BinaryTree();
 
 ## Documentation
 
-### BinaryTree()
+### AVLTree()
 
 Creates an empty avl-tree with infinite capacity.
 
