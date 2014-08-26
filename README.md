@@ -34,13 +34,67 @@ var avlTree = new AVLTree();
 </script>
 ```
 
-
 ## Documentation
 
 ### AVLTree()
 
-Creates an empty avl-tree with infinite capacity.
+Create an empty tree with.
 
+### Methods
+
+#### .add(element)
+
+Add an element to tree.
+
+##### element
+
+Type: `object`
+
+the element to be added to the tree.
+
+#### .remove(element) `throws "No such element" error` 
+
+Remove an element from the tree and return the element.
+
+##### element
+
+Type: `object`
+
+the element to be removed from the tree.
+
+#### .getRoot()
+
+Returns the root of the tree.
+
+Type: `object`
+
+the root of the tree
+
+#### .find(element) `throws "No such element" error` 
+
+Find an element from the tree and return the element.
+
+##### element
+
+Type: `object`
+
+the specified element.
+
+#### .isEmpty()
+
+Returns true if this tree contains no elements.
+
+Type: `boolean`
+
+whether or not the tree is empty.
+
+#### .size()
+
+Returns the number of elements in the tree.
+
+Type: `int`
+
+the number of element in the tree.
 
 ## License
 
